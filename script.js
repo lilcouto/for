@@ -1,7 +1,7 @@
 function Tarefa(descricao, prioridade) {
   this.descricao = descricao;
   this.prioridade = prioridade;
-  this.concluida = false; // Por padrão, a tarefa não está concluída
+  this.concluida = false; 
   this.concluir = function () {
     this.concluida = true;
     console.log(`Tarefa "${this.descricao}" concluída!`);
